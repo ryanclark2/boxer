@@ -44,3 +44,7 @@ group :test do
   gem 'capybara'
   gem 'turn'
 end
+
+group :preoduction do
+  gem 'pg'
+end
