@@ -19,10 +19,10 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </a>
-        <a class="brand" href="#">Boxer</a>
+        <%= link_to "Boxer", root_path, id: "logo" %>
         <div class="nav-collapse">
           <ul class="nav pull-right">
-            <li><%= link_to "All Documents" %></li>
+            <li><%= link_to "How it Works", how_it_works_path %></li>
             <li><%= link_to "Contact Us" %></li>
             <li><%= link_to "Sign In" %></li>
           </ul>
@@ -34,6 +34,6 @@
   <div>
   <%= yield %>
   </div>
-  
+
 </body>
 </html>

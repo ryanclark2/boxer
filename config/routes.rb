@@ -2,6 +2,7 @@ Boxer::Application.routes.draw do
   resources :documents
 
   root to: 'static_pages#index'
+  match '/how_it_works', to: 'static_pages#how_it_works'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
